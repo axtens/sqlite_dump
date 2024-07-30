@@ -2,9 +2,11 @@ Imports System.Data.SQLite
 Imports System.Text.RegularExpressions
 Imports System.Linq
 
+Namespace BODB
+
 Public Module BODB
 
-    Public Function DBSQLite(ByVal PString As String) As (status As String, cargo As String)
+    Friend Function DBSQLite(ByVal PString As String) As (status As String, cargo As String)
 
         'PString: fileName '|' table '|' field '|' value 
 
@@ -267,3 +269,5 @@ Public Module BODB
     End Function
 
 End Module
+    
+End Namespace

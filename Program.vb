@@ -1,5 +1,4 @@
 Imports System
-Imports BODB
 
 Module Program
     Sub Main(args As String())
@@ -7,7 +6,7 @@ Module Program
             Console.WriteLine("sqlite_dump <string>")
             End
         End If
-        dim result = DBSQLite(args(0))
+        dim result = BODB.DBSQLite(args(0))
         if result.Item1 <> vbNullString then
             Console.WriteLine(result.Item1)
         else
