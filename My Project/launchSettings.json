@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "sqlite_dump": {
+      "commandName": "Project",
+      "commandLineArgs": "-csv \"c:\\Users\\bugma\\Dropbox\\Projects\\sqlite_dump\\Products.csv\r\n||ProductID^ProductName^SupplierID^CategoryID^Unit^Price\""
+    }
+  }
+}

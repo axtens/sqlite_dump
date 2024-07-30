@@ -4,7 +4,7 @@ Imports System.Linq
 
 Namespace BODB
 
-Public Module BODB
+Public Module SQL
 
     Friend Function DBSQLite(ByVal PString As String) As (status As String, cargo As String)
 
